@@ -10,9 +10,11 @@ int fact=1;
         return no;
     else
     while (no!=0)
+    {
         fact = fact*no;
         no--;
     return fact;
+    }
 }
 int main()
 {
