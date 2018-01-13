@@ -4,7 +4,6 @@ int factno(int no)
 {
 
 int fact=1;
-    //int fact=1;
     if(no==0)
         return 1;
     else if(no<3)
